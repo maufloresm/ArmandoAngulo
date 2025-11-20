@@ -1,1 +1,219 @@
-<h1>Armando Ángulo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nombre del Profesor – Página personal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Página personal de NOMBRE DEL PROFESOR, afiliación, investigación y docencia."
+  />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fuente opcional de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Barra superior de navegación -->
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="brand">
+        <!-- NOMBRE CORTO DEL PROFESOR -->
+        <a href="#inicio">Nombre Apellido</a>
+      </div>
+      <nav class="nav">
+        <a href="#about">Sobre mí</a>
+        <a href="#research">Investigación</a>
+        <a href="#teaching">Docencia</a>
+        <a href="#publications">Publicaciones</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- Sección de encabezado con foto y datos básicos -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-photo">
+          <!-- Sustituye img/profile.jpg por la ruta real -->
+          <img src="img/profile.jpg" alt="Foto de Nombre del Profesor" />
+        </div>
+        <div class="hero-text">
+          <h1>Nombre Completo del Profesor</h1>
+          <h2>Cargo académico actual</h2>
+
+          <p class="affiliation">
+            Departamento / Facultad <br />
+            Nombre de la Universidad / Institución <br />
+            Ciudad, País
+          </p>
+
+          <p class="short-bio">
+            <!-- Breve descripción, 2–3 líneas -->
+            Soy [cargo] en [institución]. Mis intereses incluyen X, Y y Z.
+            Actualmente trabajo en proyectos relacionados con A y B.
+          </p>
+
+          <div class="hero-links">
+            <!-- Pon aquí enlaces reales (CV, Google Scholar, ORCID, etc.) -->
+            <a href="#" class="button">CV</a>
+            <a href="#" class="button button-outline">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Sobre mí -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <p>
+          Aquí va un texto un poco más largo contando la trayectoria del
+          profesor: formación académica, líneas de trabajo principales, puestos
+          actuales y previos, etc. Puedes usar varios párrafos según sea
+          necesario.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección: Investigación -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <h2>Líneas de investigación</h2>
+
+        <p>
+          Texto general sobre los intereses de investigación del profesor. Por
+          ejemplo: “Mi investigación se centra en X, con especial énfasis en Y
+          y Z”.
+        </p>
+
+        <div class="grid-2">
+          <div>
+            <h3>Temas principales</h3>
+            <ul>
+              <li>Tema o línea 1</li>
+              <li>Tema o línea 2</li>
+              <li>Tema o línea 3</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Palabras clave</h3>
+            <p class="keywords">
+              psicología cognitiva, lenguaje, neurociencia, aprendizaje,
+              desarrollo...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Docencia -->
+    <section id="teaching" class="section">
+      <div class="container">
+        <h2>Docencia</h2>
+        <p>
+          Breve descripción del tipo de cursos que imparte el profesor (grado,
+          posgrado, cursos especializados, etc.).
+        </p>
+
+        <div class="grid-2">
+          <div>
+            <h3>Cursos actuales</h3>
+            <ul>
+              <li>Nombre del curso 1 – Programa X</li>
+              <li>Nombre del curso 2 – Programa Y</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Cursos impartidos previamente</h3>
+            <ul>
+              <li>Curso A</li>
+              <li>Curso B</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Publicaciones -->
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <h2>Publicaciones seleccionadas</h2>
+        <p>
+          Lista corta de publicaciones más representativas. Cuando tengas la
+          información, sustituye los items de abajo.
+        </p>
+
+        <ul class="pub-list">
+          <li>
+            <span class="pub-title">Autor, N. (Año).</span>
+            <span class="pub-rest">Título del artículo. <em>Revista</em>, volumen(número), páginas.</span>
+          </li>
+          <li>
+            <span class="pub-title">Autor, N. &amp; Coautor, M. (Año).</span>
+            <span class="pub-rest">Otro título de ejemplo. <em>Conferencia</em>.</span>
+          </li>
+          <li>
+            <span class="pub-title">Autor, N. (Año).</span>
+            <span class="pub-rest">Título del capítulo. En Editor (Ed.), <em>Título del libro</em>. Editorial.</span>
+          </li>
+        </ul>
+
+        <!-- Si el profesor tiene lista completa en otro lado -->
+        <p>
+          Para una lista completa de publicaciones, ver
+          <a href="#">este enlace</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+
+        <div class="grid-2">
+          <div>
+            <h3>Información de contacto</h3>
+            <p>
+              <strong>Email:</strong> <a href="mailto:profesor@universidad.edu">profesor@universidad.edu</a><br />
+              <strong>Oficina:</strong> Edificio, número de oficina<br />
+              <strong>Institución:</strong> Nombre de la universidad
+            </p>
+          </div>
+          <div>
+            <h3>Redes y enlaces</h3>
+            <ul>
+              <li><a href="#">Google Scholar</a></li>
+              <li><a href="#">ORCID</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter/X</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>
+        &copy; <span id="year"></span> Nombre del Profesor.
+      </span>
+      <span class="footer-note">
+        Sitio creado con <a href="https://pages.github.com/">GitHub Pages</a>.
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    // Para actualizar el año automáticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
