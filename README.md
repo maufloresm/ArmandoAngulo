@@ -15,13 +15,7 @@ Aquí se muestra información académica, intereses de investigación, publicaci
 La página estará disponible en:
 
 ```
-https://usuario.github.io/nombre-del-repositorio/
-```
-
-O, si el repositorio se llama `usuario.github.io`, estará disponible directamente en:
-
-```
-https://github.com/maufloresm/ArmandoAngulo.github.io
+https://maufloresm.github.io/ArmandoAngulo/
 ```
 
 ## Cómo editar el sitio
