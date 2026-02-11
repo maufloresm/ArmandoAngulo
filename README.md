@@ -1,9 +1,9 @@
-# 🌐 Página Personal – Armando Ángulo
+# Página Personal – Armando Ángulo
 
 Este repositorio contiene el código  de la **página personal de Armando Ángulo**.  
 Aquí se muestra información académica, intereses de investigación, publicaciones, docencia y datos de contacto.
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 ├── index.html        # Página principal
