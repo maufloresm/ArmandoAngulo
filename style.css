@@ -1,5 +1,5 @@
 /* =========================================
-   VARIABLES Y CONFIGURACIÓN BASE
+   1. VARIABLES Y CONFIGURACIÓN BASE
    ========================================= */
 :root {
   /* Paleta de azules */
@@ -34,70 +34,7 @@ a:hover {
 }
 
 /* =========================================
-   TABLA DE PUBLICACIONES
-   ========================================= */
-.publications-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-}
-
-.publications-table td {
-  padding: 15px 15px 15px 0;
-  vertical-align: top;
-  border: none; /* Sin bordes, como pediste */
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-/* Columna del año */
-.pub-year {
-  width: 70px; /* Ancho fijo para alinear todas las citas */
-  font-weight: 700;
-  color: var(--blue-title);
-}
-
-/* Columna de la cita */
-.pub-ref {
-  color: var(--text-main);
-}
-
-/* Títulos de revistas en cursiva automática si usas la etiqueta <em> */
-.pub-ref em {
-  color: var(--text-main);
-}
-
-/* =========================================
-   BADGES (PALABRAS CLAVE)
-   ========================================= */
-.badges-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.badge {
-  background-color: #e6f0fa; /* Fondo azul claro */
-  color: var(--blue-title);  /* Texto azul oscuro */
-  padding: 6px 14px;
-  border-radius: 20px;       /* Bordes redondeados tipo píldora */
-  font-size: 0.95rem;
-  font-weight: 600;
-  border: 1px solid #b3d4ff; /* Borde sutil azul */
-  transition: all 0.2s ease;
-  cursor: default;
-}
-
-.badge:hover {
-  background-color: var(--blue-title);
-  color: #ffffff;
-  transform: translateY(-2px); /* Se levanta un poquito al pasar el ratón */
-  box-shadow: 0 4px 8px rgba(0, 64, 128, 0.2);
-}
-
-/* =========================================
-   ENCABEZADO Y NAVEGACIÓN
+   2. ENCABEZADO Y NAVEGACIÓN
    ========================================= */
 #header {
   background-color: var(--header-bg); /* Fondo azul */
@@ -129,12 +66,6 @@ a:hover {
   letter-spacing: -0.5px;
 }
 
-.logo-sub {
-  margin: 0;
-  color: #b3d4ff; /* Azul clarito para el subtítulo */
-  font-size: 1.05rem;
-}
-
 /* Logos de instituciones */
 .header-logos {
   display: flex;
@@ -145,12 +76,10 @@ a:hover {
 }
 
 .inst-logo {
-  height: 60px; /* Un poco más grandes */
+  height: 60px;
   width: auto;
   object-fit: contain;
   background: transparent;
-  padding: 5px;
-  border-radius: 4px;
 }
 
 /* Botón de idioma (como enlace) con imagen */
@@ -208,7 +137,7 @@ a:hover {
 }
 
 /* =========================================
-   LAYOUT PRINCIPAL
+   3. LAYOUT PRINCIPAL
    ========================================= */
 /* Abarca el 95% de la página */
 #layout-container {
@@ -221,7 +150,9 @@ a:hover {
   align-items: flex-start;
 }
 
-/* --- SIDEBAR --- */
+/* =========================================
+   4. BARRA LATERAL (SIDEBAR)
+   ========================================= */
 #sidebar {
   flex: 0 0 260px;
   background-color: var(--sidebar-bg);
@@ -260,7 +191,7 @@ a:hover {
   padding-top: 15px;
 }
 
-/* --- MEMBRESÍAS EN LA BARRA LATERAL --- */
+/* Membresías en la barra lateral */
 .memberships {
   margin-top: 20px;
   padding-top: 15px;
@@ -287,7 +218,6 @@ a:hover {
   padding-left: 14px;
 }
 
-/* Viñeta azul personalizada */
 .memberships li::before {
   content: "■";
   color: var(--blue-link);
@@ -297,7 +227,9 @@ a:hover {
   font-size: 0.6rem;
 }
 
-/* --- CONTENIDO PRINCIPAL --- */
+/* =========================================
+   5. CONTENIDO PRINCIPAL
+   ========================================= */
 #main-content {
   flex: 1;
   padding-bottom: 40px;
@@ -331,7 +263,38 @@ p {
   margin-bottom: 8px;
 }
 
-/* Tabla de contacto limpia */
+/* =========================================
+   6. BADGES (PALABRAS CLAVE)
+   ========================================= */
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.badge {
+  background-color: #e6f0fa; /* Fondo azul claro */
+  color: var(--blue-title);  /* Texto azul oscuro */
+  padding: 6px 14px;
+  border-radius: 20px;       /* Bordes redondeados tipo píldora */
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid #b3d4ff; /* Borde sutil azul */
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.badge:hover {
+  background-color: var(--blue-title);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 64, 128, 0.2);
+}
+
+/* =========================================
+   7. TABLA DE CONTACTO
+   ========================================= */
 .contact-table {
   border-collapse: collapse;
 }
@@ -347,7 +310,38 @@ p {
 }
 
 /* =========================================
-   FOOTER
+   8. TABLA DE PUBLICACIONES Y PRESENTACIONES
+   ========================================= */
+.publications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.publications-table td {
+  padding: 15px 15px 15px 0;
+  vertical-align: top;
+  border: none; /* Sin bordes */
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.pub-year {
+  width: 70px;
+  font-weight: 700;
+  color: var(--blue-title);
+}
+
+.pub-ref {
+  color: var(--text-main);
+}
+
+.pub-ref em {
+  color: var(--text-main);
+}
+
+/* =========================================
+   9. FOOTER
    ========================================= */
 .footer {
   text-align: center;
@@ -361,7 +355,7 @@ p {
 }
 
 /* =========================================
-   RESPONSIVO (MÓVILES Y TABLETS)
+   10. RESPONSIVO (MÓVILES Y TABLETS)
    ========================================= */
 @media (max-width: 900px) {
   #layout-container {
