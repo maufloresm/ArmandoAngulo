@@ -14,71 +14,20 @@
 
 <body>
   <header id="header">
-    <div class="header-inner">
-      <div class="header-top">
-        <div class="logo">
-          <a href="index.html">Armando Q. Angulo Chavira</a>
-        </div>
-        
-        <div class="header-logos">
-          <img src="img/facultad.png" alt="Logo Institución 1" class="inst-logo">
-          <img src="img/unam.png" alt="Logo Institución 2" class="inst-logo">
-        </div>
-
-        <a href="presentations_en.html" class="lang-toggle" title="Cambiar a Inglés">
-          <img src="img/usa.jpg" alt="Bandera EN" class="lang-img">
-          <span>EN</span>
-        </a>
-      </div>
-
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="publications.html">Publicaciones</a></li>
-          <li><a href="presentations.html" class="active">Presentaciones</a></li>
-          <li><a href="projects.html">Proyectos</a></li>
-          <li><a href="teaching.html">Docencia</a></li>
-          <li><a href="group.html">Research Group</a></li>
-          <li><a href="collaborations.html">Colaboraciones</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
-    </div>
+    <div id="header-placeholder"></div>
   </header>
 
   <div id="layout-container">
     
     <aside id="sidebar">
-      <img src="img/profile.jpeg" alt="Foto de Armando Q. Angulo Chavira" class="profile-pic" />
-      
-      <p class="role">Técnico Académico Titular A<br>(Tiempo Completo Definitivo)</p>
-      
-      <div class="affiliation">
-        <p><strong>Facultad de Psicología, UNAM</strong></p>
-        <p>Ciudad de México, México</p>
-      </div>
-
-      <div class="memberships">
-        <ul>
-          <li>Sistema Nacional de Investigadores Nivel I</li>
-          <li>Laboratorio de Psicolingüística</li>
-          <li>Interdisciplinary Network for Cognitive and Behavioral Sciences</li>
-        </ul>
-      </div>
-
-      <div class="sidebar-links">
-        <a href="https://scholar.google.com/citations?user=4qdTuuMAAAAJ&hl=es&oi=ao" target="_blank">Google Scholar</a><br>
-        <a href="https://orcid.org/0000-0002-6756-6717" target="_blank">ORCID</a><br>
-        <a href="https://www.researchgate.net/profile/Armando-Angulo-Chavira" target="_blank">ResearchGate</a>
-      </div>
+      <div id="sidebar-placeholder"></div>
     </aside>
 
     <main id="main-content">
       
       <section class="content-section">
-        <h3 class="section-title">Presentaciones y Conferencias</h3>
-        <p>Selección de ponencias, conferencias magistrales, carteles y talleres presentados en congresos e instituciones académicas.</p>
+        <h3 class="section-title" data-i18n="presTitle">Presentaciones y Conferencias</h3>
+        <p data-i18n="presDesc">Selección de ponencias, conferencias magistrales, carteles y talleres presentados en congresos e instituciones académicas.</p>
         
         <table class="publications-table">
           <tbody>
@@ -290,11 +239,9 @@
     </main>
   </div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <p>&copy; 2026 Armando Q. Angulo Chavira.</p>
-    </div>
-  </footer>
+  <footer id="footer-placeholder" class="footer"></footer>
+
+  <script src="main.js"></script>
 
 </body>
 </html>
