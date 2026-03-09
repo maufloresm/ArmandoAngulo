@@ -87,11 +87,9 @@ const i18n = {
 
     // Publications (publications.html)
     pubsTitle: "Journal Articles",
-    pubsDesc: "Peer-reviewed journal articles arranged chronologically.",
 
     // Presentations (presentations.html)
-    presTitle: "Presentations and Conferences",
-    presDesc: "Selection of lectures, keynotes, posters, and workshops presented at academic conferences and institutions."
+    presTitle: "Presentations and Conferences"
   }
 };
 
