@@ -10,7 +10,7 @@ const i18n = {
     navOutreach: "Divulgación",
     navProjects: "Proyectos",
     navTeaching: "Docencia",
-    navGroup: "Research Group",
+    navGroup: "Grupo de Investigacion",
     navCollab: "Colaboraciones",
     navResources: "Resources",
     navBlog: "Blog",
