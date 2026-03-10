@@ -3,14 +3,14 @@
 // ==========================================
 const i18n = {
   es: {
-    // Encabezado y Navegación
+    // Navegación
     navHome: "Home",
     navPubs: "Publicaciones",
     navPres: "Presentaciones",
     navOutreach: "Divulgación",
     navProjects: "Proyectos",
     navTeaching: "Docencia",
-    navGroup: "Grupo de Investigacion",
+    navGroup: "Research Group",
     navCollab: "Colaboraciones",
     navResources: "Resources",
     navBlog: "Blog",
@@ -40,16 +40,44 @@ const i18n = {
     contactTitle: "Contacto",
     
     // Publicaciones (publications.html)
-    pubsTitle: "Journal Articles",
+    pubsTitle: "Artículos de revista",
     pubsDesc: "Artículos indexados en revistas con revisión por pares ordenados cronológicamente.",
 
     // Presentaciones (presentations.html)
     presTitle: "Presentaciones y Conferencias",
-    presDesc: "Selección de ponencias, conferencias magistrales, carteles y talleres presentados en congresos e instituciones académicas."
+    presDesc: "Selección de ponencias, conferencias magistrales, carteles y talleres presentados en congresos e instituciones académicas.",
+
+    // Grupo de investigación (group.html)
+    groupPageTitle: "Miembros del Grupo de Investigación",
+    groupDesc: "Nuestro equipo está formado por estudiantes e investigadores dedicados al estudio de la psicolingüística y las neurociencias cognitivas de la conducta.",
+    m1Name: "Juan García López",
+    m1Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Tesis.",
+    m1IntL: "<strong>Intereses de investigación:</strong>",
+    m1IntT: "Predicción lingüística, eye-tracking, adquisición del lenguaje en la infancia.",
+    m1ThesisL: "<strong>Tesis:</strong>",
+    m1ThesisT: "El rol del contexto en la anticipación sintáctica en niños hispanohablantes.",
+    m2Name: "Ana Rodríguez Martínez",
+    m2Info: "Estudiante de Maestría en Ciencias (Neurobiología), UNAM.",
+    m2IntL: "<strong>Intereses de investigación:</strong>",
+    m2IntT: "Bilingüismo, acceso léxico, pupilometría, priming semántico.",
+    m2ThesisL: "<strong>Tesis:</strong>",
+    m2ThesisT: "Mecanismos de acceso léxico en bilingües simultáneos de español e inglés.",
+    m3Name: "Pedro Sánchez Ruiz",
+    m3Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Tesis.",
+    m3IntL: "<strong>Intereses de investigación:</strong>",
+    m3IntT: "Redes léxico-semánticas, envejecimiento cognitivo, enfermedad de Alzheimer.",
+    m3ThesisL: "<strong>Tesis:</strong>",
+    m3ThesisT: "Análisis computacional de redes semánticas como biomarcador temprano en Alzheimer.",
+    m4Name: "Laura Pérez Gómez",
+    m4Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Asistente de Investigación.",
+    m4IntL: "<strong>Intereses de investigación:</strong>",
+    m4IntT: "Psicolingüística experimental, electroencefalografía (EEG/ERP), comprensión de oraciones.",
+    m4ThesisL: "<strong>Asistente de enseñanza:</strong>",
+    m4ThesisT: "Cursos de Métodos de Investigación en Neurociencias."
   },
   
   en: {
-    // Header & Navigation
+    // Navigation
     navHome: "Home",
     navPubs: "Publications",
     navPres: "Presentations",
@@ -70,7 +98,7 @@ const i18n = {
     member2: "Psycholinguistics Laboratory",
     member3: "Interdisciplinary Network for Cognitive and Behavioral Sciences",
 
-    // Home (index.html)
+    // Home
     aboutTitle: "About me",
     aboutP1: "I hold a PhD in Psychology (Behavioral Neuroscience, UNAM; examination January 28, 2025), and previously completed an MSc in Behavioral Sciences (Neuroscience, UdeG, 2018) and a BA in Psychology (UdeG, 2015).",
     aboutP2: "I have conducted research stays and collaborations at institutions such as the Department of Experimental Psychology (University of Oxford, “Modelling the Infant Bilingual Lexicon” project) and the Center for Brain and Cognition (Universitat Pompeu Fabra).",
@@ -85,11 +113,41 @@ const i18n = {
     k1: "Psycholinguistics", k2: "Prediction", k3: "Bilingualism", k4: "Language acquisition", k5: "Eye-tracking", k6: "Pupillometry", k7: "EEG/ERP", k8: "Semantic networks", k9: "Applied AI", k10: "Sentence completion norms",
     contactTitle: "Contacts",
 
-    // Publications (publications.html)
+    // Publications
     pubsTitle: "Journal Articles",
+    pubsDesc: "Peer-reviewed journal articles arranged chronologically.",
 
-    // Presentations (presentations.html)
-    presTitle: "Presentations and Conferences"
+    // Presentations
+    presTitle: "Presentations and Conferences",
+    presDesc: "Selection of lectures, keynotes, posters, and workshops presented at academic conferences and institutions.",
+
+    // Research Group
+    groupPageTitle: "Research Group Members",
+    groupDesc: "Our team consists of students and researchers dedicated to the study of psycholinguistics and cognitive neuroscience.",
+    m1Name: "Juan Garcia Lopez",
+    m1Info: "Undergraduate Student, Faculty of Psychology, UNAM, Thesis.",
+    m1IntL: "<strong>Research interests:</strong>",
+    m1IntT: "Linguistic prediction, eye-tracking, child language acquisition.",
+    m1ThesisL: "<strong>Thesis:</strong>",
+    m1ThesisT: "The role of context in syntactic anticipation in Spanish-speaking children.",
+    m2Name: "Ana Rodriguez Martinez",
+    m2Info: "MSc Student (Neurobiology), UNAM.",
+    m2IntL: "<strong>Research interests:</strong>",
+    m2IntT: "Bilingualism, lexical access, pupillometry, semantic priming.",
+    m2ThesisL: "<strong>Thesis:</strong>",
+    m2ThesisT: "Mechanisms of lexical access in simultaneous Spanish-English bilinguals.",
+    m3Name: "Pedro Sanchez Ruiz",
+    m3Info: "Undergraduate Student, Faculty of Psychology, UNAM, Thesis.",
+    m3IntL: "<strong>Research interests:</strong>",
+    m3IntT: "Lexico-semantic networks, cognitive aging, Alzheimer's disease.",
+    m3ThesisL: "<strong>Thesis:</strong>",
+    m3ThesisT: "Computational analysis of semantic networks as an early biomarker in Alzheimer's disease.",
+    m4Name: "Laura Perez Gomez",
+    m4Info: "Undergraduate Student, Faculty of Psychology, UNAM, Research Assistant.",
+    m4IntL: "<strong>Research interests:</strong>",
+    m4IntT: "Experimental psycholinguistics, electroencephalography (EEG/ERP), sentence comprehension.",
+    m4ThesisL: "<strong>Teaching assistant:</strong>",
+    m4ThesisT: "Research Methods in Neuroscience courses."
   }
 };
 
@@ -98,24 +156,25 @@ const i18n = {
 // ==========================================
 async function loadComponents() {
   try {
-    // Carga los 3 archivos al mismo tiempo
     const [headerRes, sidebarRes, footerRes] = await Promise.all([
       fetch('header.html'),
       fetch('sidebar.html'),
       fetch('footer.html')
     ]);
 
-    // Convierte la respuesta a texto HTML
     const headerHtml = await headerRes.text();
     const sidebarHtml = await sidebarRes.text();
     const footerHtml = await footerRes.text();
 
-    // Inyecta el HTML en los contenedores vacíos de tu página
-    document.getElementById('header-placeholder').innerHTML = headerHtml;
-    document.getElementById('sidebar-placeholder').innerHTML = sidebarHtml;
-    document.getElementById('footer-placeholder').innerHTML = footerHtml;
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    if(headerPlaceholder) headerPlaceholder.innerHTML = headerHtml;
 
-    // Una vez cargados los componentes, iniciamos el idioma y resaltamos el menú
+    const sidebarPlaceholder = document.getElementById('sidebar-placeholder');
+    if(sidebarPlaceholder) sidebarPlaceholder.innerHTML = sidebarHtml;
+
+    const footerPlaceholder = document.getElementById('footer-placeholder');
+    if(footerPlaceholder) footerPlaceholder.innerHTML = footerHtml;
+
     initLanguage();
     highlightCurrentPage();
 
@@ -125,13 +184,12 @@ async function loadComponents() {
 }
 
 // ==========================================
-// 3. LÓGICA DE IDIOMAS
+// 3. LÓGICA DE IDIOMAS Y DELEGACIÓN DE EVENTOS
 // ==========================================
 function setLanguage(lang) {
   const dict = i18n[lang] || i18n.es;
-  document.documentElement.lang = lang; // Cambia el lang del HTML
+  document.documentElement.lang = lang; 
 
-  // Recorre todas las etiquetas que tengan data-i18n y reemplaza su contenido
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (key && dict[key]) {
@@ -139,42 +197,39 @@ function setLanguage(lang) {
     }
   });
 
-  // Actualiza el botón de idioma (Visual y funcionalidad)
-  const langToggle = document.getElementById("langToggle");
   const langImg = document.getElementById("langImg");
   const langText = document.getElementById("langText");
 
-  if (langToggle && langImg && langText) {
+  if (langImg && langText) {
     if (lang === "es") {
       langText.textContent = "EN";
       langImg.src = "img/usa.jpg"; 
       langImg.alt = "Bandera EN";
     } else {
       langText.textContent = "ES";
-      langImg.src = "img/mx.jpg";
+      langImg.src = "img/mx.jpg"; 
       langImg.alt = "Bandera ES";
     }
   }
 
-  // Guarda la preferencia en el navegador
   localStorage.setItem("site_lang", lang);
 }
 
 function initLanguage() {
-  // Verifica si el usuario ya había elegido un idioma antes
   const savedLang = localStorage.getItem("site_lang") || "es";
   setLanguage(savedLang);
 
-  // Agrega el evento de clic al botón que acabamos de inyectar en el header
-  const toggleBtn = document.getElementById("langToggle");
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", (e) => {
-      e.preventDefault(); // Evita que el enlace recargue la página
+  // Delegación de eventos (A prueba de balas)
+  document.addEventListener("click", (e) => {
+    const toggleBtn = e.target.closest("#langToggle");
+    
+    if (toggleBtn) {
+      e.preventDefault(); 
       const currentLang = document.documentElement.lang || "es";
       const newLang = currentLang === "es" ? "en" : "es";
       setLanguage(newLang);
-    });
-  }
+    }
+  });
 }
 
 // ==========================================

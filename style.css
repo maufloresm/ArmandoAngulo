@@ -2,16 +2,15 @@
    1. VARIABLES Y CONFIGURACIÓN BASE
    ========================================= */
 :root {
-  /* Paleta de azules */
-  --header-bg: #002b5c;      /* Azul marino oscuro para encabezado */
-  --blue-title: #004080;     /* Azul brillante para títulos */
-  --blue-link: #0056b3;      /* Azul clásico para enlaces */
-  --sidebar-bg: #f4f8fc;     /* Azul MUY clarito para el fondo lateral */
+  --header-bg: #002b5c;      
+  --blue-title: #004080;     
+  --blue-link: #0056b3;      
+  --sidebar-bg: #f4f8fc;     
   
   --text-main: #333333;
   --text-muted: #555555;
   --bg-color: #ffffff;
-  --border-color: #d1dfed;   /* Gris azulado para bordes */
+  --border-color: #d1dfed;   
 }
 
 body {
@@ -37,13 +36,12 @@ a:hover {
    2. ENCABEZADO Y NAVEGACIÓN
    ========================================= */
 #header {
-  background-color: var(--header-bg); /* Fondo azul */
+  background-color: var(--header-bg); 
   color: #ffffff;
   border-bottom: 4px solid var(--blue-title);
   margin-bottom: 40px;
 }
 
-/* Ancho dinámico para abarcar toda la pantalla (95%) */
 .header-inner {
   width: 95%;
   max-width: 1600px;
@@ -54,25 +52,24 @@ a:hover {
 .header-top {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centrado vertical */
+  align-items: center; 
   margin-bottom: 20px;
 }
 
 .logo a {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffffff; /* Letras blancas sobre azul */
+  color: #ffffff; 
   text-decoration: none;
   letter-spacing: -0.5px;
 }
 
-/* Logos de instituciones */
 .header-logos {
   display: flex;
   gap: 15px;
   align-items: center;
   margin-left: auto;
-  margin-right: 30px; /* Separación del botón de idioma */
+  margin-right: 30px; 
 }
 
 .inst-logo {
@@ -82,7 +79,6 @@ a:hover {
   background: transparent;
 }
 
-/* Botón de idioma (como enlace) con imagen */
 .lang-toggle {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -110,7 +106,6 @@ a:hover {
   border-radius: 2px;
 }
 
-/* Menú de navegación */
 .nav-menu ul {
   list-style: none;
   margin: 0;
@@ -139,7 +134,6 @@ a:hover {
 /* =========================================
    3. LAYOUT PRINCIPAL
    ========================================= */
-/* Abarca el 95% de la página */
 #layout-container {
   width: 95%;
   max-width: 1600px;
@@ -191,7 +185,6 @@ a:hover {
   padding-top: 15px;
 }
 
-/* Membresías en la barra lateral */
 .memberships {
   margin-top: 20px;
   padding-top: 15px;
@@ -241,7 +234,7 @@ a:hover {
 
 .section-title {
   font-size: 1.6rem;
-  color: var(--blue-title); /* Títulos en azul */
+  color: var(--blue-title); 
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 8px;
   margin-top: 0;
@@ -274,13 +267,13 @@ p {
 }
 
 .badge {
-  background-color: #e6f0fa; /* Fondo azul claro */
-  color: var(--blue-title);  /* Texto azul oscuro */
+  background-color: #e6f0fa; 
+  color: var(--blue-title);  
   padding: 6px 14px;
-  border-radius: 20px;       /* Bordes redondeados tipo píldora */
+  border-radius: 20px;       
   font-size: 0.95rem;
   font-weight: 600;
-  border: 1px solid #b3d4ff; /* Borde sutil azul */
+  border: 1px solid #b3d4ff; 
   transition: all 0.2s ease;
   cursor: default;
 }
@@ -310,7 +303,7 @@ p {
 }
 
 /* =========================================
-   8. TABLA DE PUBLICACIONES Y PRESENTACIONES
+   8. TABLAS DE PUBLICACIONES Y PRESENTACIONES
    ========================================= */
 .publications-table {
   width: 100%;
@@ -321,7 +314,7 @@ p {
 .publications-table td {
   padding: 15px 15px 15px 0;
   vertical-align: top;
-  border: none; /* Sin bordes */
+  border: none; 
   font-size: 1.05rem;
   line-height: 1.6;
 }
@@ -341,7 +334,73 @@ p {
 }
 
 /* =========================================
-   9. FOOTER
+   9. DISEÑO DE GRUPO DE INVESTIGACIÓN (GROUP.HTML)
+   ========================================= */
+.group-members-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.group-member-row {
+  display: flex;
+  flex-direction: row; 
+  gap: 30px; 
+  align-items: flex-start; 
+  width: 100%;
+  box-sizing: border-box; 
+  border-bottom: 1px solid var(--border-color); /* Línea gris de separación */
+  padding-bottom: 40px; 
+  margin-bottom: 40px;
+}
+
+/* El último miembro no lleva la línea gris debajo */
+.group-member-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.group-member-text {
+  flex: 1;
+  min-width: 0; 
+}
+
+.group-member-text h4 {
+  margin-top: 0;
+  color: var(--blue-title);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.member-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.member-details li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.group-member-image {
+  flex: 0 0 160px; 
+  max-width: 160px; 
+}
+
+.profile-placeholder {
+  width: 100%;
+  height: auto;
+  display: block; 
+  border-radius: 6px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15); 
+  object-fit: cover; 
+}
+
+/* =========================================
+   10. FOOTER
    ========================================= */
 .footer {
   text-align: center;
@@ -355,7 +414,7 @@ p {
 }
 
 /* =========================================
-   10. RESPONSIVO (MÓVILES Y TABLETS)
+   11. RESPONSIVO (MÓVILES Y TABLETS)
    ========================================= */
 @media (max-width: 900px) {
   #layout-container {
@@ -376,5 +435,23 @@ p {
 
   .header-logos {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .group-member-row {
+    flex-direction: column-reverse; /* Imagen arriba en celulares */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .group-member-image {
+    flex: auto;
+    width: 100%;
+    max-width: 250px; 
+  }
+
+  .group-member-text {
+    width: 100%;
   }
 }
