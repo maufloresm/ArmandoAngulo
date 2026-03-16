@@ -185,6 +185,65 @@ a:hover {
   padding-top: 15px;
 }
 
+.sidebar-contact {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.sidebar-contact p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-contact a {
+  color: var(--text-main);
+  word-break: break-all; /* CRUCIAL: Evita que un correo largo rompa la barra lateral */
+  font-size: 0.95rem;
+}
+
+.sidebar-contact a:hover {
+  color: var(--blue-link);
+}
+
+/* Formato de los logos académicos */
+.sidebar-socials {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column; /* Los acomoda en lista vertical */
+  gap: 15px; /* Espacio entre cada red social */
+}
+
+.sidebar-socials a {
+  display: flex;
+  align-items: center; /* Centra el logo con el texto */
+  gap: 12px; /* Espacio entre el logo y el texto */
+  color: var(--text-main);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar-socials a:hover {
+  color: var(--blue-link);
+  text-decoration: none;
+  transform: translateX(5px); /* Pequeño efecto: se mueve a la derecha al hacer hover */
+}
+
+.social-icon {
+  width: 24px;  /* Tamaño más pequeño porque van al lado del texto */
+  height: 24px;
+  object-fit: contain;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px); /* Efecto de saltito al pasar el ratón */
+  filter: grayscale(0%); /* Opcional: Regresa el color al pasar el ratón */
+}
+
 .memberships {
   margin-top: 20px;
   padding-top: 15px;
@@ -254,6 +313,20 @@ p {
 
 .clean-list li {
   margin-bottom: 8px;
+}
+
+.subsection-title {
+  font-size: 1.2rem;
+  color: var(--blue-title);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border-color); /* Opcional: una línea más delgada */
+  padding-bottom: 5px;
+}
+
+/* Quitamos el margen superior si es el primer elemento de la sección */
+.section-title + .subsection-title {
+  margin-top: 20px;
 }
 
 /* =========================================

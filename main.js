@@ -73,7 +73,77 @@ const i18n = {
     m4IntL: "<strong>Intereses de investigación:</strong>",
     m4IntT: "Psicolingüística experimental, electroencefalografía (EEG/ERP), comprensión de oraciones.",
     m4ThesisL: "<strong>Asistente de enseñanza:</strong>",
-    m4ThesisT: "Cursos de Métodos de Investigación en Neurociencias."
+    m4ThesisT: "Cursos de Métodos de Investigación en Neurociencias.",
+
+    // Proyectos
+    projTitle: "Proyectos de Investigación",
+
+    // Divulgación
+    outreachTitle: "Divulgación Científica",
+    outreachPubs: "Artículos de Divulgación",
+    outreachEvents: "Organización de Eventos",
+    outreachMedia: "Entrevistas en Medios",
+
+    // Docencia
+    teachingTitle: "Docencia",
+    teachUndergrad: "Cursos de Licenciatura",
+    teachGrad: "Cursos de Posgrado",
+
+    // Colaboraciones
+    collabTitle: "Colaboraciones",
+    
+    c1Name: "Dra. Natalia Arias Trejo",
+    c1Degree: "Doctora en Psicología.",
+    c1Position: "Profesora de Tiempo Completo en la Universidad Nacional Autónoma de México (UNAM).",
+    c1IntL: "<strong>Temas de interés:</strong>",
+    c1IntT: "Adquisición del lenguaje, normas de asociación de palabras.",
+
+    c2Name: "Dr. Anuenue Baker Kukona",
+    c2Degree: "Doctor en Psicología.",
+    c2Position: "Profesor Titular en Psicología en la Universidad de Greenwich.",
+    c2IntL: "<strong>Temas de interés:</strong>",
+    c2IntT: "Cognición, lingüística y métodos cuantitativos.",
+
+    c3Name: "Dr. Luis Ángel Llamas Alonso",
+    c3Degree: "Doctor en Neurociencias de la Conducta.",
+    c3Position: "Profesor de Tiempo Completo en la Universidad Autónoma de Baja California (UABC).",
+    c3IntL: "<strong>Temas de interés:</strong>",
+    c3IntT: "Neurociencia cognitiva, neurociencia afectiva, psicología experimental.",
+
+    c4Name: "Dr. Julio César Llamas Alonso",
+    c4Degree: "Doctor en Psicología.",
+    c4Position: "Profesor Investigador de Tiempo Completo en la Universidad Autónoma del Estado de Hidalgo (UAEH).",
+    c4IntL: "<strong>Temas de interés:</strong>",
+    c4IntT: "Neurociencias, cognición, psicopatología, adicciones, memoria, creatividad.",
+
+    c5Name: "Dr. Vladimir Huerta Chávez",
+    c5Degree: "Doctor en Psicología.",
+    c5Position: "Miembro del Instituto de Neurociencias de la Universidad de Guadalajara (UdeG).",
+    c5IntL: "<strong>Temas de interés:</strong>",
+    c5IntT: "Emoción y cognición, ERPs y rastreo ocular (eye-tracking).",
+
+    c6Name: "Dr. Kim Plunkett",
+    c6Degree: "Doctor en Psicología Experimental.",
+    c6Position: "Profesor Emérito de Ciencias Cognitivas.",
+    c6IntL: "<strong>Temas de interés:</strong>",
+    c6IntT: "Reconocimiento de palabras, aprendizaje de palabras, desarrollo semántico y formación de categorías.",
+
+    // Blog
+    blogTitle: "Blog",
+    blogDesc: "Reflexiones, noticias y notas breves sobre psicolingüística, ciencia cognitiva y tecnología.",
+    readMore: "Leer más &rarr;",
+
+    post1Title: "El futuro de la IA en la psicolingüística",
+    post1Date: "15 de Marzo, 2026",
+    post1Snippet: "Un breve análisis sobre cómo los modelos de lenguaje a gran escala (LLMs) están transformando nuestra forma de modelar y estudiar el léxico mental y el cerebro bilingüe...",
+
+    post2Title: "Consejos para sobrevivir al doctorado",
+    post2Date: "10 de Febrero, 2026",
+    post2Snippet: "Después de defender mi tesis doctoral, comparto algunas estrategias que me ayudaron a mantener el equilibrio entre las exigencias del laboratorio, la escritura y la vida personal.",
+
+    post3Title: "Entendiendo el 'Eye-Tracking' en la infancia",
+    post3Date: "5 de Enero, 2026",
+    post3Snippet: "Una introducción amigable a la tecnología de rastreo ocular y cómo esta herramienta no invasiva nos permite descubrir qué saben los bebés mucho antes de que puedan articular palabras."
   },
   
   en: {
@@ -147,7 +217,77 @@ const i18n = {
     m4IntL: "<strong>Research interests:</strong>",
     m4IntT: "Experimental psycholinguistics, electroencephalography (EEG/ERP), sentence comprehension.",
     m4ThesisL: "<strong>Teaching assistant:</strong>",
-    m4ThesisT: "Research Methods in Neuroscience courses."
+    m4ThesisT: "Research Methods in Neuroscience courses.",
+
+    // Projects
+    projTitle: "Research Projects",
+
+    // Outreach
+    outreachTitle: "Science Communication & Outreach",
+    outreachPubs: "Outreach Publications",
+    outreachEvents: "Event Organization",
+    outreachMedia: "Media Interviews",
+
+    // Teaching
+    teachingTitle: "Teaching",
+    teachUndergrad: "Undergraduate Courses",
+    teachGrad: "Graduate Courses",
+
+    // Collaborations
+    collabTitle: "Collaborations",
+    
+    c1Name: "Dr. Natalia Arias Trejo",
+    c1Degree: "Doctor of Psychology.",
+    c1Position: "Full Time Professor at National Autonomous University of Mexico (UNAM).",
+    c1IntL: "<strong>Interests Topics:</strong>",
+    c1IntT: "Language acquisition, word association norms.",
+
+    c2Name: "Dr. Anuenue Baker Kukona",
+    c2Degree: "PhD in Psychology.",
+    c2Position: "Senior Lecturer in Psychology at University of Greenwich.",
+    c2IntL: "<strong>Interests Topics:</strong>",
+    c2IntT: "Cognition, linguistics and quantitative methods.",
+
+    c3Name: "Dr. Luis Angel Llamas Alonso",
+    c3Degree: "PhD in Behavioral Neuroscience.",
+    c3Position: "Full Time Professor at Autonomous University of Baja California.",
+    c3IntL: "<strong>Interests Topics:</strong>",
+    c3IntT: "Cognitive Neuroscience, Affective Neuroscience, Experimental Psychology.",
+
+    c4Name: "Dr. Julio César Llamas Alonso",
+    c4Degree: "Doctor of Psychology.",
+    c4Position: "Full Time Researcher Lecturer at Autonomous University of Hidalgo State.",
+    c4IntL: "<strong>Interests Topics:</strong>",
+    c4IntT: "Neurosciences, cognition, psychopathology, addictions, memory, creativity.",
+
+    c5Name: "Dr. Vladimir Huerta Chavez",
+    c5Degree: "Doctor of Psychology.",
+    c5Position: "Member of the Neuroscience Institute at the University of Guadalajara.",
+    c5IntL: "<strong>Interests Topics:</strong>",
+    c5IntT: "Emotion and cognition, ERP's & eye tracking.",
+
+    c6Name: "Dr. Kim Plunkett",
+    c6Degree: "PhD in Experimental Psychology.",
+    c6Position: "Emeritus Professor of Cognitive Science.",
+    c6IntL: "<strong>Interests Topics:</strong>",
+    c6IntT: "Word recognition, word learning, semantic development and category formation.",
+
+    // Blog
+    blogTitle: "Blog",
+    blogDesc: "Reflections, news, and short notes on psycholinguistics, cognitive science, and technology.",
+    readMore: "Read more &rarr;",
+
+    post1Title: "The future of AI in psycholinguistics",
+    post1Date: "March 15, 2026",
+    post1Snippet: "A brief analysis of how large language models (LLMs) are transforming the way we model and study the mental lexicon and the bilingual brain...",
+
+    post2Title: "Tips for surviving a PhD",
+    post2Date: "February 10, 2026",
+    post2Snippet: "After defending my doctoral thesis, I share some strategies that helped me balance the demands of the lab, writing, and personal life.",
+
+    post3Title: "Understanding Eye-Tracking in infancy",
+    post3Date: "January 5, 2026",
+    post3Snippet: "A friendly introduction to eye-tracking technology and how this non-invasive tool allows us to discover what babies know long before they can articulate words."
   }
 };
 
