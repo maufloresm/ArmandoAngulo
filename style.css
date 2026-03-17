@@ -185,11 +185,33 @@ a:hover {
   padding-top: 15px;
 }
 
+/* Nuevo formato de correo en Sidebar */
 .sidebar-contact {
   margin-top: 20px;
   padding-top: 15px;
   border-top: 1px solid var(--border-color);
   font-size: 0.9rem;
+}
+
+/* Idéntico al diseño de .memberships p */
+.contact-title {
+  margin: 0 0 8px 0;
+  color: var(--blue-title);
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-email a {
+  color: var(--text-main);
+  word-break: break-all; /* Evita que el correo rompa la barra lateral */
+}
+
+.contact-email a:hover {
+  color: var(--blue-link);
 }
 
 .sidebar-contact p {

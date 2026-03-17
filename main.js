@@ -20,6 +20,7 @@ const i18n = {
     affilUni: "<strong>Facultad de Psicología, UNAM</strong>",
     affilLoc: "Ciudad de México, México",
     memberTitle: "<strong>Miembro:</strong>",
+    contactTitle: "<strong>Contacto:</strong>",
     member1: "Sistema Nacional de Investigadores Nivel I",
     member2: "Laboratorio de Psicolingüística",
     member3: "Interdisciplinary Network for Cognitive and Behavioral Sciences",
@@ -37,7 +38,6 @@ const i18n = {
     int5: "Análisis computacional (RSA, series de tiempo, redes léxico-semánticas)",
     keyTitle: "Palabras Clave",
     k1: "Psicolingüística", k2: "Predicción", k3: "Bilingüismo", k4: "Adquisición del lenguaje", k5: "Rastreo ocular", k6: "Pupilometría", k7: "EEG/ERP", k8: "Redes semánticas", k9: "IA aplicada", k10: "Normas de completamiento oracional",
-    contactTitle: "Contacto",
     
     // Publicaciones (publications.html)
     pubsTitle: "Artículos de revista",
@@ -164,6 +164,7 @@ const i18n = {
     affilUni: "<strong>Faculty of Psychology, UNAM</strong>",
     affilLoc: "Mexico City, Mexico",
     memberTitle: "<strong>Member:</strong>",
+    contactTitle: "<strong>Contact:</strong>",
     member1: "National System of Researchers (SNI) Level I",
     member2: "Psycholinguistics Laboratory",
     member3: "Interdisciplinary Network for Cognitive and Behavioral Sciences",
@@ -181,7 +182,6 @@ const i18n = {
     int5: "Computational analysis (RSA, time series, lexico-semantic networks)",
     keyTitle: "Keywords",
     k1: "Psycholinguistics", k2: "Prediction", k3: "Bilingualism", k4: "Language acquisition", k5: "Eye-tracking", k6: "Pupillometry", k7: "EEG/ERP", k8: "Semantic networks", k9: "Applied AI", k10: "Sentence completion norms",
-    contactTitle: "Contacts",
 
     // Publications
     pubsTitle: "Journal Articles",
