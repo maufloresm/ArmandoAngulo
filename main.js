@@ -15,7 +15,7 @@ const i18n = {
     navResources: "Resources",
     navBlog: "Blog",
 
-    // Barra Lateral (Sidebar)
+    // Barra Lateral
     roleTitle: "Técnico Académico Titular A<br>(Tiempo Completo Definitivo)",
     affilUni: "<strong>Facultad de Psicología, UNAM</strong>",
     affilLoc: "Ciudad de México, México",
@@ -25,7 +25,7 @@ const i18n = {
     member2: "Laboratorio de Psicolingüística",
     member3: "Interdisciplinary Network for Cognitive and Behavioral Sciences",
 
-    // Inicio (index.html)
+    // Inicio
     aboutTitle: "Acerca de mi",
     aboutP1: "Soy Doctor en Psicología (Neurociencias de la Conducta, UNAM; examen 28 de enero de 2025), con formación previa como Maestro en Ciencias del Comportamiento (Neurociencias, UdeG, 2018) y Licenciado en Psicología (UdeG, 2015).",
     aboutP2: "He realizado estancias y colaboración académica en instituciones como el Department of Experimental Psychology (University of Oxford, proyecto “Modelling the Infant Bilingual Lexicon”) y el Center for Brain and Cognition (Universitat Pompeu Fabra).",
@@ -39,41 +39,24 @@ const i18n = {
     keyTitle: "Palabras Clave",
     k1: "Psicolingüística", k2: "Predicción", k3: "Bilingüismo", k4: "Adquisición del lenguaje", k5: "Rastreo ocular", k6: "Pupilometría", k7: "EEG/ERP", k8: "Redes semánticas", k9: "IA aplicada", k10: "Normas de completamiento oracional",
     
-    // Publicaciones (publications.html)
+    // Publicaciones
     pubsTitle: "Artículos de revista",
     pubsDesc: "Artículos indexados en revistas con revisión por pares ordenados cronológicamente.",
 
-    // Presentaciones (presentations.html)
+    // Presentaciones
     presTitle: "Presentaciones y Conferencias",
     presDesc: "Selección de ponencias, conferencias magistrales, carteles y talleres presentados en congresos e instituciones académicas.",
 
-    // Grupo de investigación (group.html)
+    // Grupo de investigación
     groupPageTitle: "Miembros del Grupo de Investigación",
     groupDesc: "Nuestro equipo está formado por estudiantes e investigadores dedicados al estudio de la psicolingüística y las neurociencias cognitivas de la conducta.",
-    m1Name: "Juan García López",
-    m1Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Tesis.",
-    m1IntL: "<strong>Intereses de investigación:</strong>",
-    m1IntT: "Predicción lingüística, eye-tracking, adquisición del lenguaje en la infancia.",
-    m1ThesisL: "<strong>Tesis:</strong>",
-    m1ThesisT: "El rol del contexto en la anticipación sintáctica en niños hispanohablantes.",
-    m2Name: "Ana Rodríguez Martínez",
-    m2Info: "Estudiante de Maestría en Ciencias (Neurobiología), UNAM.",
-    m2IntL: "<strong>Intereses de investigación:</strong>",
-    m2IntT: "Bilingüismo, acceso léxico, pupilometría, priming semántico.",
-    m2ThesisL: "<strong>Tesis:</strong>",
-    m2ThesisT: "Mecanismos de acceso léxico en bilingües simultáneos de español e inglés.",
-    m3Name: "Pedro Sánchez Ruiz",
-    m3Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Tesis.",
-    m3IntL: "<strong>Intereses de investigación:</strong>",
-    m3IntT: "Redes léxico-semánticas, envejecimiento cognitivo, enfermedad de Alzheimer.",
-    m3ThesisL: "<strong>Tesis:</strong>",
-    m3ThesisT: "Análisis computacional de redes semánticas como biomarcador temprano en Alzheimer.",
-    m4Name: "Laura Pérez Gómez",
-    m4Info: "Estudiante de Licenciatura, Facultad de Psicología, UNAM, Asistente de Investigación.",
-    m4IntL: "<strong>Intereses de investigación:</strong>",
-    m4IntT: "Psicolingüística experimental, electroencefalografía (EEG/ERP), comprensión de oraciones.",
-    m4ThesisL: "<strong>Asistente de enseñanza:</strong>",
-    m4ThesisT: "Cursos de Métodos de Investigación en Neurociencias.",
+    
+    m1Name: "Alexandra Rosselli González Balderrama",
+    m1Bio: "Estudiando psicología, actualmente estoy trabajando como ingeniera en monitoreo de redes empresariales en Totalplay.",
+    
+    m2Name: "Arely Perez Ramirez",
+    m2Bio1: "Profesora dedicada a la Enseñanza de Idiomas (Inglés y Francés) a niños, adolescentes y adultos. Apasionada por la Educación Consciente, la Psicolingüística y las Neurociencias.",
+    m2Bio2: "Actualmente, además de mi labor docente, formo parte del equipo de investigación dirigido por el Dr. Armando Angulo Chavira en el Laboratorio de Psicolingüística de la Facultad de Psicología de la UNAM como parte de mi servicio social.",
 
     // Proyectos
     projTitle: "Proyectos de Investigación",
@@ -127,6 +110,30 @@ const i18n = {
     c6Position: "Profesor Emérito de Ciencias Cognitivas.",
     c6IntL: "<strong>Temas de interés:</strong>",
     c6IntT: "Reconocimiento de palabras, aprendizaje de palabras, desarrollo semántico y formación de categorías.",
+
+    c7Name: "Prof. Bruno Lara",
+    c7Degree: "Profesor.",
+    c7Position: "Laboratorio de Robótica Cognitiva, CInC, Universidad Autónoma del Estado de Morelos (UAEM).",
+    c7IntL: "<strong>Temas de interés:</strong>",
+    c7IntT: "Robótica cognitiva, así como el estudio y modelado de procesos predictivos, perceptuales, afectivos y atencionales en agentes biológicos y artificiales.",
+
+    c8Name: "Dra. Alejandra Ciria",
+    c8Degree: "Doctora en Ciencias.",
+    c8Position: "Investigadora Asociada (Tiempo Completo), Departamento de Ciencias de la Computación, IIMAS, UNAM.",
+    c8IntL: "<strong>Temas de interés:</strong>",
+    c8IntT: "Intersección entre la cognición corporizada, inteligencia artificial y robótica cognitiva; procesamiento de información multimodal y adaptación en sistemas biológicos y artificiales.",
+    
+    // Recursos
+    resourcesTitle: "Recursos",
+    citeText: "Para citar esta base de datos:",
+    
+    res1Title: "Mexican Spanish adaptation for the Affective Norms for English Words (ANEW)",
+    res1Desc: "La Adaptación al Español de México de ANEW es una base de datos que contiene las evaluaciones de 1,028 palabras, calificadas por 753 participantes. Es una herramienta metodológica basada en la escala pictórica SAM (Self-Assessment Manikin) que permite estudiar el procesamiento emocional de las palabras en tres dimensiones: valencia (agrado), activación (arousal) y dominancia (control) dentro de un contexto lingüístico y culturalmente relevante para México.",
+    res1Btn: "Descargar Base de Datos (CSV)",
+
+    res2Title: "Sentence‐final completion norms for 2925 Mexican Spanish sentence contexts",
+    res2Desc: "La Base de Datos de Normas de Completamiento proporciona un extenso corpus de 2,925 contextos de oraciones evaluados por 1,470 participantes adultos en México. Incluye medidas calculadas para estimar la predictibilidad de la palabra final, tales como la probabilidad de cierre (cloze probability), sorpresa (surprisal) y el nivel de incertidumbre o entropía del contexto. Es una herramienta ideal para investigaciones en psicolingüística, mecanismos predictivos del lenguaje y ciencias cognitivas.",
+    res2Btn: "Descargar Base de Datos (CSV)",
 
     // Blog
     blogTitle: "Blog",
@@ -194,30 +201,13 @@ const i18n = {
     // Research Group
     groupPageTitle: "Research Group Members",
     groupDesc: "Our team consists of students and researchers dedicated to the study of psycholinguistics and cognitive neuroscience.",
-    m1Name: "Juan Garcia Lopez",
-    m1Info: "Undergraduate Student, Faculty of Psychology, UNAM, Thesis.",
-    m1IntL: "<strong>Research interests:</strong>",
-    m1IntT: "Linguistic prediction, eye-tracking, child language acquisition.",
-    m1ThesisL: "<strong>Thesis:</strong>",
-    m1ThesisT: "The role of context in syntactic anticipation in Spanish-speaking children.",
-    m2Name: "Ana Rodriguez Martinez",
-    m2Info: "MSc Student (Neurobiology), UNAM.",
-    m2IntL: "<strong>Research interests:</strong>",
-    m2IntT: "Bilingualism, lexical access, pupillometry, semantic priming.",
-    m2ThesisL: "<strong>Thesis:</strong>",
-    m2ThesisT: "Mechanisms of lexical access in simultaneous Spanish-English bilinguals.",
-    m3Name: "Pedro Sanchez Ruiz",
-    m3Info: "Undergraduate Student, Faculty of Psychology, UNAM, Thesis.",
-    m3IntL: "<strong>Research interests:</strong>",
-    m3IntT: "Lexico-semantic networks, cognitive aging, Alzheimer's disease.",
-    m3ThesisL: "<strong>Thesis:</strong>",
-    m3ThesisT: "Computational analysis of semantic networks as an early biomarker in Alzheimer's disease.",
-    m4Name: "Laura Perez Gomez",
-    m4Info: "Undergraduate Student, Faculty of Psychology, UNAM, Research Assistant.",
-    m4IntL: "<strong>Research interests:</strong>",
-    m4IntT: "Experimental psycholinguistics, electroencephalography (EEG/ERP), sentence comprehension.",
-    m4ThesisL: "<strong>Teaching assistant:</strong>",
-    m4ThesisT: "Research Methods in Neuroscience courses.",
+    
+    m1Name: "Alexandra Rosselli González Balderrama",
+    m1Bio: "Currently studying Psychology and working as an Enterprise Network Monitoring Engineer at Totalplay.",
+    
+    m2Name: "Arely Perez Ramirez",
+    m2Bio1: "Language teacher (English and French) for children, teenagers, and adults. Passionate about Conscious Education, Psycholinguistics, and Neuroscience.",
+    m2Bio2: "Currently, in addition to my teaching work, I am part of the research team led by Dr. Armando Angulo Chavira at the Psycholinguistics Laboratory of the Faculty of Psychology (UNAM) as part of my social service.",
 
     // Projects
     projTitle: "Research Projects",
@@ -271,6 +261,30 @@ const i18n = {
     c6Position: "Emeritus Professor of Cognitive Science.",
     c6IntL: "<strong>Interests Topics:</strong>",
     c6IntT: "Word recognition, word learning, semantic development and category formation.",
+
+    c7Name: "Prof. Bruno Lara",
+    c7Degree: "Professor.",
+    c7Position: "Cognitive Robotics Laboratory, CInC, Autonomous University of the State of Morelos (UAEM).",
+    c7IntL: "<strong>Interests Topics:</strong>",
+    c7IntT: "Cognitive Robotics as well as the study and modeling of predictive, perceptual, affective, and attentional processes in biological and artificial agents.",
+
+    c8Name: "Dr. Alejandra Ciria",
+    c8Degree: "Ph.D.",
+    c8Position: "Associate Researcher (Full-time), Department of Computer Science, IIMAS, UNAM.",
+    c8IntL: "<strong>Interests Topics:</strong>",
+    c8IntT: "Intersection of embodied cognition, artificial intelligence, and cognitive robotics; multimodal information processing and adaptation in biological and artificial systems.",
+
+    // Resources
+    resourcesTitle: "Resources",
+    citeText: "To cite this database:",
+    
+    res1Title: "Mexican Spanish adaptation for the Affective Norms for English Words (ANEW)",
+    res1Desc: "The Mexican Spanish Adaptation of ANEW is a database containing the evaluations of 1,028 words, rated by 753 participants. It is a methodological tool based on the Self-Assessment Manikin (SAM) pictorial scale that allows the study of emotional word processing in three dimensions: valence (pleasantness), arousal (activation), and dominance (control) within a linguistically and culturally relevant context for Mexico.",
+    res1Btn: "Download Database (CSV)",
+
+    res2Title: "Sentence‐final completion norms for 2925 Mexican Spanish sentence contexts",
+    res2Desc: "The Sentence Completion Norms Database provides an extensive corpus of 2,925 sentence contexts evaluated by 1,470 adult participants in Mexico. It includes calculated measures to estimate the predictability of the final word, such as cloze probability, surprisal, and the level of uncertainty or context entropy. It is an ideal tool for research in psycholinguistics, predictive language mechanisms, and cognitive sciences.",
+    res2Btn: "Download Database (CSV)",
 
     // Blog
     blogTitle: "Blog",
