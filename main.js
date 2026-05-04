@@ -133,7 +133,7 @@ const i18n = {
 
     res2Title: "Sentence‐final completion norms for 2925 Mexican Spanish sentence contexts",
     res2Desc: "La Base de Datos de Normas de Completamiento proporciona un extenso corpus de 2,925 contextos de oraciones evaluados por 1,470 participantes adultos en México. Incluye medidas calculadas para estimar la predictibilidad de la palabra final, tales como la probabilidad de cierre (cloze probability), sorpresa (surprisal) y el nivel de incertidumbre o entropía del contexto. Es una herramienta ideal para investigaciones en psicolingüística, mecanismos predictivos del lenguaje y ciencias cognitivas.",
-    res2Btn: "Descargar Base de Datos (CSV)",
+    res2Btn: "Descargar Base de Datos (XLSX)",
 
     // Blog
     blogTitle: "Blog",
@@ -284,7 +284,7 @@ const i18n = {
 
     res2Title: "Sentence‐final completion norms for 2925 Mexican Spanish sentence contexts",
     res2Desc: "The Sentence Completion Norms Database provides an extensive corpus of 2,925 sentence contexts evaluated by 1,470 adult participants in Mexico. It includes calculated measures to estimate the predictability of the final word, such as cloze probability, surprisal, and the level of uncertainty or context entropy. It is an ideal tool for research in psycholinguistics, predictive language mechanisms, and cognitive sciences.",
-    res2Btn: "Download Database (CSV)",
+    res2Btn: "Download Database (XLSX)",
 
     // Blog
     blogTitle: "Blog",
